@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">一起祷告吧</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings2">SetOut</string>
+    <string name="blank_reflash">刷新</string>
+    <string name="bt_message">you just clicked on the button</string>
+    <string name="title_activity_calculator">Calculator</string>
+
+    <string name="title_activity_mult">MultActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_blank">BlankActivity</string>
+
+
+
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="login_label_username">用户名:</string>
+    <string name="login_username_hint">用户名或手机</string>
+    <string name="login_label_password">密码:</string>
+    <string name="login_label_signin">登录</string>
+    <string name="login_register_link">注册</string>
+
+</resources>

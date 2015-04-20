@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.pozx.myapplication.WelcomeActivity"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/showFirstOpen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingBottom="22.0dip">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_weight="1.0"
+            android:src="@drawable/dot_0"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_weight="1.0"
+            android:src="@drawable/dot_0"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_weight="1.0"
+            android:src="@drawable/dot_0"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_weight="1.0"
+            android:src="@drawable/dot_0"
+            android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cur_dot"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/dot_m"
+            android:scaleType="fitXY"/>
+        </FrameLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置首次"
+        android:id="@+id/reset"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

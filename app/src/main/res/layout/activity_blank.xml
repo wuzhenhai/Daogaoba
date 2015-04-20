@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="#77a6cfff"
+    tools:context="com.example.pozx.myapplication.BlankActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ff1e7fff">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_label_signin"
+                        android:id="@+id/bt_get"
+                        android:textSize="14dp"
+                        android:textColor="#fff"
+                        android:background="#ff1e7fff"
+                        android:layout_marginLeft="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true">
+                    </Button>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全部代祷事项"
+                    android:id="@+id/textView2"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换"
+            android:id="@+id/bt_setting"
+            android:textSize="14dp"
+            android:textColor="#fff"
+            android:background="#ff1e7fff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true">
+        </Button>
+
+        </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp">
+
+            <!-- 表格2-收缩 -->
+
+            <!--<TableLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="#FFCD6B"-->
+                <!--android:stretchColumns="0,1,2,3" >-->
+
+                <!--<TableRow>-->
+
+                    <!--<Button-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="填充一" />-->
+
+                    <!--<Button-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="填充二" />-->
+
+                    <!--<Button-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="普通三" />-->
+                    <!--<Button-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="123"-->
+                        <!--android:id="@+id/button" />-->
+
+
+                <!--</TableRow>-->
+            <!--</TableLayout>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="123"-->
+            <!--android:id="@+id/show" />-->
+        <com.example.pozx.myapplication.RefreshableView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/refreshable_view">
+            <ListView
+                android:id="@+id/cards_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="10dp"
+                android:padding="10dp"
+                android:scrollbarStyle="outsideOverlay"
+                tools:listitem="@layout/list_item_card"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal" />
+
+        </com.example.pozx.myapplication.RefreshableView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

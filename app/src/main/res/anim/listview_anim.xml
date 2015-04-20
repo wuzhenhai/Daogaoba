@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:fillAfter="true">
+    android:fillAfter="false"
+    <!-- 定义从左向右进入的动画 -->
+    <scale
+        android:duration="300"
+        android:fromXScale="1"
+        android:toXScale="0.9"
+        android:fromYScale="1"
+        android:toYScale="0.9"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0.3"
+        android:duration="300"
+        />
+
+</set>

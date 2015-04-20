@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#e0f0e0"
+    tools:context="com.example.pozx.myapplication.Calculator">
+  <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_column="0" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true">
+
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:shrinkColumns="0,1,2,3" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:background="@drawable/textview_style"
+            android:textSize="45dp"
+            android:textColor="#fff"
+            android:id="@+id/textView"
+            android:gravity="right"
+            />
+
+
+
+
+        <TableRow>
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:id="@+id/im_bt_c"
+            android:src="@drawable/bt_clr"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"/>
+    </TableRow>
+
+    <TableRow>
+    <ImageButton
+        android:layout_height="80dp"
+        android:id="@+id/im_bt7"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_7"/>
+
+    <ImageButton
+        android:layout_height="80dp"
+        android:id="@+id/im_bt8"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_8" />
+
+    <ImageButton
+        android:layout_height="80dp"
+        android:id="@+id/im_bt9"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_9" />
+
+    <ImageButton
+            android:layout_height="80dp"
+            android:id="@+id/im_bt_add"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:src="@drawable/bt_add"/>
+
+    </TableRow>
+        <TableRow>
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt4"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_4" />
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt5"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_5" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt6"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_6"/>
+
+    <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:id="@+id/im_bt_sub"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/bt_sub"/>
+    </TableRow>
+    <TableRow>
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt1"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_1"/>
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt2"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_2"/>
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt3"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_3"/>
+
+    <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:id="@+id/im_bt_mult"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:src="@drawable/bt_mult" />
+    </TableRow>
+
+
+    <TableRow>
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt_dot"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_dot"/>
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:id="@+id/im_bt0"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/bt_0"/>
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:id="@+id/im_bt_eq"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:src="@drawable/bt_eq" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:id="@+id/im_bt_div"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:src="@drawable/bt_div" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

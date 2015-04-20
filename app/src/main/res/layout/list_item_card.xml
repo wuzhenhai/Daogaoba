@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:background="#ff3fbcff"
+        android:textColor="#fff"
+        android:gravity="center"/>
+
+
+
+    <View
+        android:id="@+id/list_item_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@color/light_gray" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textContent"
+            android:text="content"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/list_item_seperator2"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@color/light_gray" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="11dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/time"
+            android:layout_gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textDate"
+            android:layout_toStartOf="@+id/textDate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDate"
+            android:gravity="right"
+            android:textSize="12dp"
+            android:text="date"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
+</LinearLayout>
