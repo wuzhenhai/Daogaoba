@@ -1,6 +1,7 @@
 package com.example.pozx.myapplication;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.LauncherActivity;
 import android.content.ContentValues;
 import android.content.Context;
@@ -37,6 +38,9 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -57,7 +61,7 @@ import java.util.Objects;
 import java.util.logging.LogRecord;
 
 
-public class BlankActivity extends ActionBarActivity {
+public class BlankActivity extends SlidingActivity {
 
     Button bt_get;
     Button bt_setting;
@@ -84,9 +88,28 @@ public class BlankActivity extends ActionBarActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blank);
+        setBehindContentView(R.layout.activity_login);
+
+
+
+
+        SlidingMenu menu = getSlidingMenu();
+        menu.setMode(SlidingMenu.LEFT);
+        // 设置触摸屏幕的模式
+        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        menu.setShadowWidthRes(R.dimen.shadow_width);
+        menu.setShadowDrawable(R.drawable.shadow);
+
+        // 设置滑动菜单视图的宽度
+        menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+
+        // 设置渐入渐出效果的值
+        menu.setFadeDegree(0.35f);
+
+
 
         //初始化菜单
         initMenu();
@@ -408,7 +431,7 @@ public class BlankActivity extends ActionBarActivity {
 
 
     //检查网络是否可用
-    public boolean isNetworkAvailable(ActionBarActivity activity) {
+    public boolean isNetworkAvailable(SlidingActivity activity) {
         Context context = activity.getApplicationContext();
         // 获取手机所有连接管理对象（包括对wi-fi,net等连接的管理）
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -448,7 +471,7 @@ public class BlankActivity extends ActionBarActivity {
     }
 
     //显示菜单
-    private void showMenu() {
+    public void showMenu() {
         //设置位置
         View myayout = inflater.inflate(R.layout.activity_blank, null);
         menu.showAtLocation(myayout, Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, 148); //设置在屏幕中的显示位置

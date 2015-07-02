@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\Daogaoba\SlidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77ce802b2f340286998f8946150e7d5e3b9131e5">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-0aff24563fcbbae7128b2243a5b5dd2cf83959ac.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-0479ab81a4b4874eb75915cc1c0fdc4670d897e5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b2e70e6c22117334880a329c61288685037010df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-fff5ba9dcfc3fb927efe66bf6ce29e1891a7463e.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-1c7689173b81236f45b66e7fa3e4b6285b7e9d9e.jar" />
+    </item>
+
+</items>
