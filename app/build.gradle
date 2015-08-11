@@ -19,8 +19,15 @@ android {
     }
 }
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name:'qiniu', ext:'aar')
     compile 'com.android.support:appcompat-v7:21.+'
     compile 'com.android.support:support-v4:21.+'
     compile project(':SlidingMenu')

@@ -2,6 +2,7 @@ package com.example.pozx.myapplication;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Handler;
@@ -78,6 +79,20 @@ public class LoginActivity extends ActionBarActivity {
                     showTextToast("网络不可用，请检查网络");
                     return;
                 }
+
+
+                str = getMD5Str(pwd_et.getText().toString());
+                password = str;
+                username = un_et.getText().toString();
+
+                if(username.equals("")||password.equals(""))
+                {
+                    showTextToast("用户名或密码不能为空");
+                    return;
+                }
+
+
+
                 new Thread(){
                     @Override
                     public void run() {
@@ -86,11 +101,11 @@ public class LoginActivity extends ActionBarActivity {
                         List<NameValuePair> params = new ArrayList<>();
                         Message msg = handler.obtainMessage();
 
-                        if(username.equals("")||password.equals(""))
-                        {
-                            handler.sendEmptyMessage(2);
-                            return;
-                        }
+//                        if(username.equals("")||password.equals(""))
+//                        {
+//                            handler.sendEmptyMessage(2);
+//                            return;
+//                        }
                         params.add(new BasicNameValuePair("username", username));
                         params.add(new BasicNameValuePair("password", password));
                         try {
@@ -106,7 +121,8 @@ public class LoginActivity extends ActionBarActivity {
                                 //tvShow.setText(strResult);
                             } else {
                                 //tvShow.setText("Error");
-                                str = "Error";
+                                //str = "Error";
+                                handler.sendEmptyMessage(3);
                             }
                         } catch (Exception e) {
                             Log.e("Error: ", "Can't connect!  " + e.toString());
@@ -117,11 +133,11 @@ public class LoginActivity extends ActionBarActivity {
                     }
                 }.start();
                 //MD5加密输出
-                if(!pwd_et.getText().toString().equals("")) {
-                    str = getMD5Str(pwd_et.getText().toString());
-                    password=str;
-                    username=un_et.getText().toString();
-                }
+//                if(!pwd_et.getText().toString().equals("")) {
+//                    str = getMD5Str(pwd_et.getText().toString());
+//                    password=str;
+//                    username=un_et.getText().toString();
+//                }
 //                show_md5.setText("MD5:"+str);
             }
         };
@@ -148,14 +164,31 @@ public class LoginActivity extends ActionBarActivity {
             switch (msg.what) {
                 case 0:
                     showTextToast(msg.obj.toString());
+                    if(msg.obj.toString().contains("登录成功"))
+                    {
+                        SharedPreferences sp=getSharedPreferences("user",MODE_PRIVATE);
+                        SharedPreferences.Editor ed=sp.edit();
+                        ed.putString("username",username);
+                        ed.putString("password",password);
+                        ed.putString("userinfo",msg.obj.toString());
+                        ed.commit();
+
+                        Intent it = new Intent(LoginActivity.this, UserDetailActivity.class);
+                        // TODO Auto-generated method stub
+                        startActivityForResult(it, 1);
+                        finish();//关闭当前登录界面，防止后退键回到登录界面
+                    }
                     //然后处理登入后的事件
+
                     break;
                 case 1:
                     showTextToast("网络连接失败");
-                    ;
                     break;
                 case 2:
                     showTextToast("用户名或密码不能为空");
+                    break;
+                case 3:
+                    showTextToast("服务器获取资料失败");
             }
         }
 
