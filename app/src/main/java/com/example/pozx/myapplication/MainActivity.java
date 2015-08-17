@@ -1,6 +1,5 @@
 package com.example.pozx.myapplication;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -10,8 +9,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.lvrenyang.myprinter.Global;
+import com.lvrenyang.myprinter.WorkService;
+import com.lvrenyang.utils.DataUtils;
+import com.lvrenyang.pos.Pos;
 
 import java.lang.reflect.Method;
 
@@ -24,16 +27,19 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        if (null == WorkService.workThread) {
+            Intent intent = new Intent(this, WorkService.class);
+            startService(intent);
+        }
 
         //
         Button hellobtn = (Button)findViewById(R.id.hellobutton);
         hellobtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent it = new Intent(MainActivity.this, Calculator.class);
-                    // TODO Auto-generated method stub
-                      startActivityForResult(it,1);
+                Intent it = new Intent(MainActivity.this, Calculator.class);
+                // TODO Auto-generated method stub
+                startActivityForResult(it, 1);
 
 
             }
@@ -60,6 +66,34 @@ public class MainActivity extends ActionBarActivity {
 
             }
         });
+
+        Button painbtn = (Button)findViewById(R.id.bt_painter);
+        painbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, SearchBtActivity.class);
+                // TODO Auto-generated method stub
+                startActivityForResult(it, 1);
+
+            }
+        });
+
+        Button paintestbt = (Button)findViewById(R.id.test_pain_bt);
+        paintestbt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               if(WorkService.workThread.isConnected())
+               {
+                   PrintTest();
+               }
+                else
+               {
+                   Toast.makeText(getApplicationContext(), "请先连接打印机", Toast.LENGTH_SHORT).show();
+               }
+
+            }
+        });
+
         //设置监听按钮点击事件
 //        hellobtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -147,5 +181,28 @@ public class MainActivity extends ActionBarActivity {
 
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    private void PrintTest() {
+
+        String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789\nHelloWorld\n";
+        byte[] tmp1 = {0x1b, 0x40, (byte) 0xB2, (byte) 0xE2, (byte) 0xCA,
+                (byte) 0xD4, (byte) 0xD2, (byte) 0xB3, 0x0A};
+        byte[] tmp2 = {0x1b, 0x21, 0x01};
+        byte[] tmp3 = {0x0A, 0x0A, 0x0A, 0x0A};
+        byte[] buf = DataUtils.byteArraysToBytes(new byte[][]{tmp1,
+                str.getBytes(), tmp2, str.getBytes(), tmp3});
+        if (WorkService.workThread.isConnected()) {
+            Bundle data = new Bundle();
+            data.putByteArray(Global.BYTESPARA1, buf);
+            data.putInt(Global.INTPARA1, 0);
+            data.putInt(Global.INTPARA2, buf.length);
+            Pos.POS_S_SetQRcode("http://www.baidu.com", 4, 2);
+            WorkService.workThread.handleCmd(Global.CMD_WRITE, data);
+        } else {
+            Toast.makeText(this, Global.toast_notconnect,
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 }

@@ -42,5 +42,6 @@
     <string name="login_label_signin">登录</string>
     <string name="login_register_link">注册</string>
     <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="title_activity_search_bt">SearchBtActivity</string>
 
 </resources>

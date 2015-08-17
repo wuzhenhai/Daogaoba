@@ -48,11 +48,18 @@ public class LoginActivity extends ActionBarActivity {
     private String str;
     private String username;
     private String password;
+    private String userinfo="";
     private Toast toast = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        if(checkLogin())
+        {}
+        else
+        {}
+
         login_btn=(Button)findViewById(R.id.signin_button);
         pwd_et=(EditText)findViewById(R.id.password_edit);
         un_et=(EditText)findViewById(R.id.username_edit);
@@ -60,15 +67,12 @@ public class LoginActivity extends ActionBarActivity {
         username="";
         password="";
 
-
         //检测网络是否可用
         if (isNetworkAvailable(LoginActivity.this)) {
             showTextToast("当前有可用网络");
         } else {
             showTextToast("当前没有可用网络");
         }
-
-
 
         loginListener=new View.OnClickListener() {
             @Override
@@ -79,8 +83,6 @@ public class LoginActivity extends ActionBarActivity {
                     showTextToast("网络不可用，请检查网络");
                     return;
                 }
-
-
                 str = getMD5Str(pwd_et.getText().toString());
                 password = str;
                 username = un_et.getText().toString();
@@ -91,9 +93,7 @@ public class LoginActivity extends ActionBarActivity {
                     return;
                 }
 
-
-
-                new Thread(){
+          new Thread(){
                     @Override
                     public void run() {
                         //去验证登录信息，并且获取个人信息
@@ -128,7 +128,6 @@ public class LoginActivity extends ActionBarActivity {
                             Log.e("Error: ", "Can't connect!  " + e.toString());
                             //执行完毕后给handler发送一个空消息
                             handler.sendEmptyMessage(1);
-
                         }
                     }
                 }.start();
@@ -252,6 +251,34 @@ public class LoginActivity extends ActionBarActivity {
             }
         }
         return false;
+    }
+
+
+    //自动登陆测试
+    private boolean checkLogin()
+    {
+        SharedPreferences sp=getSharedPreferences("user", MODE_PRIVATE);
+        userinfo= sp.getString("userinfo", "");
+        username=sp.getString("username", "");
+        password=sp.getString("password", "");
+        if(username!=null&&password!=null)
+        {
+            //测试登陆
+            if(true)
+               return true;
+            else
+           {
+               //用户名密码错误
+               return false;
+           }
+        }
+        else
+        {
+            //采取正常登陆模式
+            return false;
+        }
+
+
     }
 
     @Override

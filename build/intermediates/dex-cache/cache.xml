@@ -9,11 +9,11 @@
         <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b2e70e6c22117334880a329c61288685037010df.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\Daogaoba\PrinterLibs\unspecified\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-0479ab81a4b4874eb75915cc1c0fdc4670d897e5.jar" />
+        sha1="311c66e913d13b508f7316f21200519222929303">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-dbbb5a04c33f75f319e11fc576b5267b0b57d419.jar" />
     </item>
     <item
         jar="D:\AndroidStudioProjects\Daogaoba\app\libs\android-async-http-1.4.6.jar"
@@ -30,13 +30,6 @@
         <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-aa16b3cf885393ef74ba8407c65bcf20627dd05b.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\qiniu\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="989d5adee34f18be7aaa8a0b430285a34b01edbb">
-        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-aaea7961549bd5113ffcc8a29449a48598eb2a4a.jar" />
-    </item>
-    <item
         jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -44,10 +37,24 @@
         <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-1c7689173b81236f45b66e7fa3e4b6285b7e9d9e.jar" />
     </item>
     <item
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\qiniu\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="989d5adee34f18be7aaa8a0b430285a34b01edbb">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-aaea7961549bd5113ffcc8a29449a48598eb2a4a.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-0479ab81a4b4874eb75915cc1c0fdc4670d897e5.jar" />
+    </item>
+    <item
         jar="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\exploded-aar\Daogaoba\SlidingMenu\unspecified\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="9455ce2f82adbc1eb8947da72d23156b3c065142">
+        sha1="73762163931a635ed2e34a90151cf3b1ee36a5b7">
         <dex dex="D:\AndroidStudioProjects\Daogaoba\app\build\intermediates\pre-dexed\debug\classes-0aff24563fcbbae7128b2243a5b5dd2cf83959ac.jar" />
     </item>
 
