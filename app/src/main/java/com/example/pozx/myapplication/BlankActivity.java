@@ -93,9 +93,6 @@ public class BlankActivity extends SlidingActivity {
         setContentView(R.layout.activity_blank);
         setBehindContentView(R.layout.activity_login);
 
-
-
-
         SlidingMenu menu = getSlidingMenu();
         menu.setMode(SlidingMenu.LEFT);
         // 设置触摸屏幕的模式
@@ -108,8 +105,6 @@ public class BlankActivity extends SlidingActivity {
 
         // 设置渐入渐出效果的值
         menu.setFadeDegree(0.35f);
-
-
 
         //初始化菜单
         initMenu();
@@ -124,18 +119,10 @@ public class BlankActivity extends SlidingActivity {
             Toast.makeText(getApplicationContext(), "当前没有可用网络！", Toast.LENGTH_SHORT).show();
         }
 
-        //检查数据库daidao表里是否有数据
-        Cursor cursorCount=db.rawQuery("select * from daidao",null);
-        if(cursorCount.getCount()!=0)
-        {
-            //数据库有数据，就初始化ListView
-            initListView();
-            Log.i("Logi: ","ListView init....");
-        }
-        else
-        {
-            Log.i("Logi: ","db is not have date");
-        }
+
+        checkDbData(); //检查数据库daidao表里是否有数据
+
+
         setBtnEvent();//设置各种按钮事件
         setRefreshEvent();//下拉菜单刷新事件
     }
@@ -151,60 +138,6 @@ public class BlankActivity extends SlidingActivity {
                 // TODO Auto-generated method stub
                 startActivityForResult(it,1);
 
-
- /*
-              //获取数据库信息
-               bt_get.setText("Loading...");
-
-                new Thread() {
-
-                    @Override
-                    public void run() {
-                        //你要执行的方法
-                        super.run();
-                        Log.i("logi:", "clicked");
-
-                        HttpPost httpPost = new HttpPost("http://wuzhenhai518.duapp.com/swdg_module/data_pro.php");
-                        List<NameValuePair> params = new ArrayList<>();
-                        //1取得爱之家，2取得弟兄姐妹，3取得全部
-                        params.add(new BasicNameValuePair("type", DDtype));
-                        //String strResult;
-                        try {
-                            httpPost.setEntity(new UrlEncodedFormEntity(params, HTTP.UTF_8));
-                            HttpResponse httpResponse = new DefaultHttpClient().execute(httpPost);
-                            if (httpResponse.getStatusLine().getStatusCode() == 200) {
-                                str = EntityUtils.toString(httpResponse.getEntity());
-                                str.replaceAll("\n", "");
-                                //String s="[{'id':'001','content':'测试数据','date':'2015-10-10'},{'id':'001','content':'测试数据','date':'2015-10-10'}]";
-                                JSONArray jsonArray = new JSONArray(str);
-                                jarray = jsonArray;
-                                str = "Ok";
-                                clearFeedTable(db);
-//                                for(int i=0;i<jsonArray.length();i++)
-//                                {
-//                                    JSONObject jsonObj=jsonArray.optJSONObject(i);
-//                                    String id=jsonObj.getString("id");
-//                                    String content=jsonObj.getString("content");
-//                                    String date=jsonObj.getString("date");
-//                                    str+="id: "+id+"\ncontent: "+content+"\ndate: "+date+"\n\n";
-//                                }
-
-                                handler.sendEmptyMessage(0);
-                                //tvShow.setText(strResult);
-                            } else {
-                                //tvShow.setText("Error");
-                                str = "Error";
-                            }
-                        } catch (Exception e) {
-                            Log.e("Error: ", "Can't connect!  " + e.toString());
-                            //执行完毕后给handler发送一个空消息
-                            handler.sendEmptyMessage(1);
-
-                        }
-
-
-                    }
-                }.start();*/
             }
         };
         bt_get.setOnClickListener(getListener);
@@ -332,6 +265,21 @@ public class BlankActivity extends SlidingActivity {
 
     }
 
+    private void checkDbData()
+    {
+        Cursor cursorCount=db.rawQuery("select * from daidao",null);
+        if(cursorCount.getCount()!=0)
+        {
+            //数据库有数据，就初始化ListView
+            initListView();
+            Log.i("Logi: ","ListView init....");
+        }
+        else
+        {
+            Log.i("Logi: ","db is not have date");
+        }
+    }
+
 
     //线程处理完，发送消息给handler处理接下去的任务
     private Handler handler = new Handler() {
@@ -372,8 +320,10 @@ public class BlankActivity extends SlidingActivity {
                             new int[]{R.id.textId, R.id.textContent, R.id.textDate}
                     );
                     saveDataToDataBase();
+                    showListNum=20;
                     listItemAdapter.setNum(20);
-                    lv.setAdapter(listItemAdapter);
+                    adapter=listItemAdapter;
+                    lv.setAdapter(adapter);
                     setItemEvent(lv);
                     break;
                 case 1:
@@ -538,12 +488,14 @@ public class BlankActivity extends SlidingActivity {
     //点击获得更多按钮添加ListView项目
     private void getMoreListItem()
     {
-
-        int temp=showListNum;
+        Log.i("getMoreListItem:","clicked");
+        //int temp=showListNum;
         showListNum+=10;
+
         if(adapter.getAllCount()>showListNum) {
             //设置显示的数量
             adapter.setNum(showListNum);
+            Log.i("showListNum:", showListNum+"");
         }
         else
         {

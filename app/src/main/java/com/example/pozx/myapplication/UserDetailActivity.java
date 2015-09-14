@@ -13,6 +13,8 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
@@ -21,12 +23,22 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.protocol.HTTP;
+import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.example.pozx.myapplication.model.Tools;
@@ -36,16 +48,28 @@ import com.qiniu.android.storage.UpCompletionHandler;
 import com.qiniu.android.storage.UploadManager;
 
 import java.io.File;
+import java.net.URLDecoder;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.jar.JarException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class UserDetailActivity extends ActionBarActivity {
 
     private TextView usernameTv;
+    private TextView imagepathTv;
+    private TextView showtokenTv;
     private String userinfo="";
+    private Button getTokenBt;
+    private String username="";
     private UploadManager uploadManager;
     private volatile String key;
     private volatile ResponseInfo info;
     private volatile JSONObject resp;
     private ImageView headimgIv;
+    private String imagepath="";
+    private String uptoken;
 
     /*组件*/
     private RelativeLayout switchAvatar;
@@ -65,10 +89,13 @@ public class UserDetailActivity extends ActionBarActivity {
 
         usernameTv = (TextView)findViewById(R.id.username_tv);
         headimgIv =(ImageView)findViewById(R.id.image_head);
+        imagepathTv = (TextView)findViewById(R.id.image_Path);
+        showtokenTv = (TextView)findViewById(R.id.token_tv);
+
+        getTokenBt =(Button)findViewById(R.id.get_token_bt);
 
         SharedPreferences sp=getSharedPreferences("user", MODE_PRIVATE);
         userinfo= sp.getString("userinfo", "");
-
 
         UploadManager uploadManager = new UploadManager();
 
@@ -87,7 +114,13 @@ public class UserDetailActivity extends ActionBarActivity {
             }
         });
 
-
+        getTokenBt.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                //getToken();
+                if(imagepath!="")
+                getToken();
+            }
+        });
 
        try
        {
@@ -95,6 +128,7 @@ public class UserDetailActivity extends ActionBarActivity {
            for (int i = 0; i < uinfo.length(); i++) {
                JSONObject jsonObj = uinfo.optJSONObject(i);
                usernameTv.setText(jsonObj.get("username").toString());
+               username=jsonObj.get("username").toString();
            }
        }
         catch(Exception e)
@@ -164,10 +198,14 @@ public class UserDetailActivity extends ActionBarActivity {
             switch (requestCode) {
                 case IMAGE_REQUEST_CODE:
                     startPhotoZoom(data.getData());
+                    imagepath=data.getData().getPath();
+                    imagepathTv.setText(imagepath);
                     Log.i("IMAGE_REQUEST_CODE:","here");
                     break;
                 case SELECT_PIC_KITKAT:
                     startPhotoZoom(data.getData());
+                    imagepath=data.getData().getPath();
+                    imagepathTv.setText(imagepath);
                     Log.i("SELECT_PIC_KITKAT:", "here");
                     break;
                 case CAMERA_REQUEST_CODE:
@@ -176,6 +214,8 @@ public class UserDetailActivity extends ActionBarActivity {
                         File tempFile = new File(
                                 Environment.getExternalStorageDirectory()
                                 , IMAGE_FILE_NAME);
+                        imagepath=tempFile.getAbsolutePath();
+                        imagepathTv.setText(imagepath);
                         startPhotoZoom(Uri.fromFile(tempFile));
                     } else {
                         Toast.makeText(UserDetailActivity.this, "未找到存储卡，无法存储照片！",
@@ -236,6 +276,7 @@ public class UserDetailActivity extends ActionBarActivity {
             Bitmap photo = extras.getParcelable("data");
             Drawable drawable = new BitmapDrawable(photo);
             headimgIv.setImageDrawable(drawable);
+
         }
     }
 
@@ -373,12 +414,33 @@ public class UserDetailActivity extends ActionBarActivity {
         return "com.google.android.apps.photos.content".equals(uri.getAuthority());
     }
 
-
-    public void upLoad()
+//头像上传功能开发中。。。（2015-8-26）
+//还差图像绝对地址的获取 （2015-9-12）
+    public void upLoad(String str)
     {
-        String data = "";
-        String key ="";
-        String token = "";
+
+
+        String data = str;
+        String ext = "";
+        String[] tempStr=str.split("\\.");
+        ext = tempStr[tempStr.length-1];
+
+        Long tsLong = System.currentTimeMillis()/1000;
+        String ts = tsLong.toString();
+
+        String key =username+"_"+ts+"_headimage."+ext;
+        String token="";
+
+        try
+        {
+            token = getJsonToken(uptoken);
+        }
+        catch(JSONException e)
+        {
+            Log.i("Token-getJsonToken:",e.toString());
+        }
+        //Log.i("token",uptoken);
+
         UploadManager uploadManager = new UploadManager();
         uploadManager.put(data, key, token,
                 new UpCompletionHandler() {
@@ -387,6 +449,84 @@ public class UserDetailActivity extends ActionBarActivity {
                         Log.i("qiniu", info.toString());
                     }
                 }, null);
+    }
+
+    private String getJsonToken(String str) throws JSONException{
+
+            JSONObject jsonObj=new JSONObject(str);
+            String token=jsonObj.getString("token");
+            return  token;
+    }
+
+    private void getToken()
+    {
+        new Thread() {
+                    @Override
+                    public void run() {
+                        HttpPost httpPost = new HttpPost("http://pozxblog.duapp.com/index.php/home/index/getToken");
+                        List<NameValuePair> params = new ArrayList<>();
+                        params.add(new BasicNameValuePair("username", username));
+                        Message msg = handler.obtainMessage();
+                        try {
+                            httpPost.setEntity(new UrlEncodedFormEntity(params, HTTP.UTF_8));
+                            HttpResponse httpResponse = new DefaultHttpClient().execute(httpPost);
+                            if (httpResponse.getStatusLine().getStatusCode() == 200) {
+                                //通过PHP获取mysql上的数据
+                                uptoken = EntityUtils.toString(httpResponse.getEntity(),"UTF-8");
+                                msg.what=0;
+                                msg.obj=uptoken;
+
+                                handler.sendMessage(msg);
+                                //tvShow.setText(strResult);
+                            } else {
+                                //tvShow.setText("Error");
+                                //str = "Error";
+                                handler.sendEmptyMessage(1);
+                            }
+                        } catch (Exception e) {
+                            Log.e("Error: ", "Can't connect!  " + e.toString());
+                            //执行完毕后给handler发送一个空消息
+                            handler.sendEmptyMessage(2);
+                        }
+                    }
+
+                }.start();
+
+    }
+
+
+
+    private Handler handler = new Handler() {
+        public void handleMessage(Message msg) {
+            //ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String, Object>>();
+            super.handleMessage(msg);
+            switch (msg.what) {
+                case 0:
+                    showtokenTv.setText(msg.obj.toString());
+                    upLoad(imagepath);
+                    break;
+                case 1:
+                    showtokenTv.setText("接口访问失败");
+                    break;
+                case 2:
+                    showtokenTv.setText("网络请求失败");
+                    break;
+                default:break;
+            }
+        }
+
+
+    };
+
+//去除空格，换行符，回车等
+    public static String replaceBlank(String str) {
+        String dest = "";
+        if (str!=null) {
+            Pattern p = Pattern.compile("\\s*|\t|\r|\n");
+            Matcher m = p.matcher(str);
+            dest = m.replaceAll("");
+        }
+        return dest;
     }
 
     @Override

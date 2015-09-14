@@ -1,285 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a023b0f5-0ae6-46c2-9364-882c6a6ca6c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbt/BTHeartBeatThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbt/BTHeartBeatThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwbt/BTHeartBeatThread$BTHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbt/BTHeartBeatThread$BTHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbt/BTHeartBeatThread$BTHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwbt/BTHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbt/BTHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbt/BTHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbt/BTRWThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbt/BTRWThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwbt/BTRWThread$BTRWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbt/BTRWThread$BTRWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbt/BTRWThread$BTRWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwbt/BTRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbt/BTRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbt/BTRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/printerlibs/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/test/debug/com/lvrenyang/printerlibs/test/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/test/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/Cmd$Constant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/Cmd$Constant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/Cmd$Constant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/Cmd$ESCCmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/Cmd$ESCCmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/Cmd$ESCCmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/Cmd$PCmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/Cmd$PCmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/Cmd$PCmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/Cmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/Cmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/Cmd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/encryp/DES2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/encryp/DES2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/encryp/DES2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/utils/DataUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/utils/DataUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/utils/DataUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/utils/ErrorCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/utils/ErrorCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/utils/ErrorCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/utils/FileUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/utils/FileUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/utils/FileUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/Global.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/Global.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/IO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/IO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/IO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/utils/IPString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/utils/IPString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/utils/IPString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/ImageProcessing.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/ImageProcessing.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/ImageProcessing.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/label/Label1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/label/Label1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/label/Label1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwwifi/NETHeartBeatThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwwifi/NETHeartBeatThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwwifi/NETHeartBeatThread$NETHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwwifi/NETHeartBeatThread$NETHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwwifi/NETHeartBeatThread$NETHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwwifi/NETHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwwifi/NETHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwwifi/NETHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwwifi/NETRWThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwwifi/NETRWThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwwifi/NETRWThread$NETRWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwwifi/NETRWThread$NETRWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwwifi/NETRWThread$NETRWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwwifi/NETRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwwifi/NETRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwwifi/NETRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$FlowControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$FlowControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$FlowControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$Parity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$Parity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$Parity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$StopBits.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$StopBits.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$TTYTermios$StopBits.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver$TTYTermios.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$TTYTermios.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$TTYTermios.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver$pl2303_type.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver$pl2303_type.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver$pl2303_type.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/PL2303Driver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/PL2303Driver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/PL2303Driver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/Pos.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/Pos.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/Pos.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/outputs/aar/PrinterLibs-debug.aar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/outputs/aar/PrinterLibs-release.aar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/pos/Protocol.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/pos/Protocol.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/pos/Protocol.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwbuf/ProtocolHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbuf/ProtocolHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbuf/ProtocolHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/test/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/test/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/test/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/test/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/classes/test/debug/com/jeremyfeinstein/slidingmenu/lib/test/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/callback/RecvCallBack.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/callback/RecvCallBack.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/callback/RecvCallBack.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwbuf/RxBuffer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwbuf/RxBuffer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwbuf/RxBuffer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/utils/TimeUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/utils/TimeUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/utils/TimeUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBDriver$RTNCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBDriver$RTNCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBDriver$RTNCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBDriver$USBDeviceId.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBDriver$USBDeviceId.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBDriver$USBDeviceId.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBDriver$USBPort$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBDriver$USBPort$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBDriver$USBPort$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBDriver$USBPort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBDriver$USBPort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBDriver$USBPort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBHeartBeatThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBHeartBeatThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBHeartBeatThread$USBHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBHeartBeatThread$USBHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBHeartBeatThread$USBHeartBeatHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBHeartBeatThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBRWThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBRWThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBRWThread$RWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBRWThread$RWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBRWThread$RWHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/classes/com/lvrenyang/rwusb/USBRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/rwusb/USBRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/rwusb/USBRWThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/WorkService$MHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/WorkService$MHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/WorkService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/WorkService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/WorkThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/WorkThread$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/WorkThread$WorkHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/WorkThread$WorkHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/debug/com/lvrenyang/myprinter/WorkThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/classes/release/com/lvrenyang/myprinter/WorkThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/libs/android-support-v4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/bundles/debug/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/bundles/release/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/aidl/debug/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/aidl/release/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/aidl/test/debug/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/printerlibs.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/res/resources-debug-test.ap_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/bundles/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/bundles/release/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/manifests/test/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTHeartBeatThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTRWThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/generated/source/buildConfig/debug/com/lvrenyang/myprinter/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/generated/source/buildConfig/release/com/lvrenyang/myprinter/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/generated/source/buildConfig/test/debug/com/lvrenyang/myprinter/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/gen/com/lvrenyang/printerlibs/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/Cmd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/encryp/DES2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/utils/DataUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/utils/ErrorCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/utils/FileUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/myprinter/Global.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/IO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/utils/IPString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/ImageProcessing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/label/Label1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/tmp/packageDebugJar/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/tmp/packageReleaseJar/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwwifi/NETHeartBeatThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwwifi/NETRWThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwusb/PL2303Driver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/Pos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/PrinterLibs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/PrinterLibs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/Protocol.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbuf/ProtocolHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/callback/RecvCallBack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbuf/RxBuffer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/SearchBtActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/utils/TimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/model/Tools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwusb/USBDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwusb/USBHeartBeatThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwusb/USBRWThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/myprinter/WorkService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/myprinter/WorkThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_bt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/bin/jarlist.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/manifests/tmp/manifestMerger446721629172694415.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/manifests/tmp/manifestMerger6979530086817730667.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/manifests/tmp/manifestMerger7384481322679566522.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_search_bt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/mergeAssets/release/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/mergeResources/test/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/packageResources/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/build/intermediates/incremental/packageResources/release/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/proguard-project.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrinterLibs/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\Daogaoba\.idea\Daogaoba.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\Daogaoba\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\Daogaoba\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\Daogaoba\SlidingMenu\build\intermediates\manifests\tmp\manifestMerger7494255390134119815.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenu/build/outputs/aar/SlidingMenu-debug.aar" afterPath="$PROJECT_DIR$/SlidingMenu/build/outputs/aar/SlidingMenu-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenu/build/outputs/aar/SlidingMenu-release.aar" afterPath="$PROJECT_DIR$/SlidingMenu/build/outputs/aar/SlidingMenu-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenu/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenu/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/bundles/release/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenu/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/SlidingMenu/build/intermediates/res/resources-debug-test.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daogaoba.iml" afterPath="$PROJECT_DIR$/Daogaoba.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/BlankActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/BlankActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Daogaoba.iws" />
@@ -306,90 +43,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#6612#6613#0" expanded="false" />
-                <element signature="e#6677#6678#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/IO.java">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="108" column="79" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="79" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#555#556#0" expanded="false" />
-                <element signature="e#576#577#0" expanded="false" />
-                <element signature="e#633#634#0" expanded="false" />
-                <element signature="e#654#655#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/Pos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTHeartBeatThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTHeartBeatThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#895#896#0" expanded="false" />
-                <element signature="e#926#927#0" expanded="false" />
-                <element signature="e#3294#3295#0" expanded="false" />
-                <element signature="e#3314#3315#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTRWThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTRWThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1546#1547#0" expanded="false" />
-                <element signature="e#1573#1574#0" expanded="false" />
-                <element signature="e#6864#6865#0" expanded="false" />
-                <element signature="e#6886#6887#0" expanded="false" />
-                <element signature="e#8993#8994#0" expanded="false" />
-                <element signature="e#9019#9020#0" expanded="false" />
-                <element signature="e#9055#9056#0" expanded="false" />
-                <element signature="e#9089#9090#0" expanded="false" />
-                <element signature="e#9122#9123#0" expanded="false" />
-                <element signature="e#9156#9157#0" expanded="false" />
-                <element signature="e#9408#9409#0" expanded="false" />
-                <element signature="e#9424#9425#0" expanded="false" />
-                <element signature="e#9477#9478#0" expanded="false" />
-                <element signature="e#9493#9494#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -398,18 +63,29 @@
       <file leaf-file-name="UserDetailActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.406181">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <element signature="e#2427#2715#0" expanded="true" />
-                <element signature="e#2714#2715#0" expanded="true" />
-                <element signature="e#3276#5244#0" expanded="true" />
-                <element signature="e#5243#5244#0" expanded="true" />
-                <element signature="e#5287#5516#0" expanded="true" />
-                <element signature="e#5515#5516#0" expanded="true" />
-                <element signature="e#13309#13558#0" expanded="true" />
-                <element signature="e#13557#13558#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.25612473">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySpAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MySpAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2608,7 +2284,9 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/SearchBtActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_user_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/BlankActivity.java" />
       </list>
     </option>
   </component>
@@ -2623,10 +2301,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1600" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2651,16 +2327,105 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intermediates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Daogaoba" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2671,6 +2436,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2687,13 +2474,49 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapplication" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daogaoba" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0123456789ABCDEF" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="00475f220d17b60b" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2894,30 +2717,47 @@
       <option name="number" value="Default" />
       <updated>1439514669580</updated>
     </task>
+    <task id="LOCAL-00001" summary="第六次提交 2015-08-17">
+      <created>1439793447513</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1439793447513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922077" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28650904" sideWeight="0.2693299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3200569" sideWeight="0.7306701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19870129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2939,6 +2779,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第六次提交 2015-08-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="第六次提交 2015-08-17" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -2948,11 +2792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6612#6613#0" expanded="false" />
-            <element signature="e#6677#6678#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2960,7 +2800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2968,13 +2807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2982,47 +2814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTHeartBeatThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#3294#3295#0" expanded="false" />
-            <element signature="e#3314#3315#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTRWThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1546#1547#0" expanded="false" />
-            <element signature="e#1573#1574#0" expanded="false" />
-            <element signature="e#6864#6865#0" expanded="false" />
-            <element signature="e#6886#6887#0" expanded="false" />
-            <element signature="e#8993#8994#0" expanded="false" />
-            <element signature="e#9019#9020#0" expanded="false" />
-            <element signature="e#9055#9056#0" expanded="false" />
-            <element signature="e#9089#9090#0" expanded="false" />
-            <element signature="e#9122#9123#0" expanded="false" />
-            <element signature="e#9156#9157#0" expanded="false" />
-            <element signature="e#9408#9409#0" expanded="false" />
-            <element signature="e#9424#9425#0" expanded="false" />
-            <element signature="e#9477#9478#0" expanded="false" />
-            <element signature="e#9493#9494#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3030,16 +2821,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2427#2715#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#3276#5244#0" expanded="true" />
-            <element signature="e#5243#5244#0" expanded="true" />
-            <element signature="e#5287#5516#0" expanded="true" />
-            <element signature="e#5515#5516#0" expanded="true" />
-            <element signature="e#13309#13558#0" expanded="true" />
-            <element signature="e#13557#13558#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3047,11 +2829,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6612#6613#0" expanded="false" />
-            <element signature="e#6677#6678#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3059,7 +2837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3067,13 +2844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3081,47 +2851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTHeartBeatThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#3294#3295#0" expanded="false" />
-            <element signature="e#3314#3315#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTRWThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1546#1547#0" expanded="false" />
-            <element signature="e#1573#1574#0" expanded="false" />
-            <element signature="e#6864#6865#0" expanded="false" />
-            <element signature="e#6886#6887#0" expanded="false" />
-            <element signature="e#8993#8994#0" expanded="false" />
-            <element signature="e#9019#9020#0" expanded="false" />
-            <element signature="e#9055#9056#0" expanded="false" />
-            <element signature="e#9089#9090#0" expanded="false" />
-            <element signature="e#9122#9123#0" expanded="false" />
-            <element signature="e#9156#9157#0" expanded="false" />
-            <element signature="e#9408#9409#0" expanded="false" />
-            <element signature="e#9424#9425#0" expanded="false" />
-            <element signature="e#9477#9478#0" expanded="false" />
-            <element signature="e#9493#9494#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3129,16 +2858,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2427#2715#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#3276#5244#0" expanded="true" />
-            <element signature="e#5243#5244#0" expanded="true" />
-            <element signature="e#5287#5516#0" expanded="true" />
-            <element signature="e#5515#5516#0" expanded="true" />
-            <element signature="e#13309#13558#0" expanded="true" />
-            <element signature="e#13557#13558#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3146,11 +2866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6612#6613#0" expanded="false" />
-            <element signature="e#6677#6678#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3158,7 +2874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3166,13 +2881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3180,9 +2888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3190,13 +2895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#3294#3295#0" expanded="false" />
-            <element signature="e#3314#3315#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3204,23 +2902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1546#1547#0" expanded="false" />
-            <element signature="e#1573#1574#0" expanded="false" />
-            <element signature="e#6864#6865#0" expanded="false" />
-            <element signature="e#6886#6887#0" expanded="false" />
-            <element signature="e#8993#8994#0" expanded="false" />
-            <element signature="e#9019#9020#0" expanded="false" />
-            <element signature="e#9055#9056#0" expanded="false" />
-            <element signature="e#9089#9090#0" expanded="false" />
-            <element signature="e#9122#9123#0" expanded="false" />
-            <element signature="e#9156#9157#0" expanded="false" />
-            <element signature="e#9408#9409#0" expanded="false" />
-            <element signature="e#9424#9425#0" expanded="false" />
-            <element signature="e#9477#9478#0" expanded="false" />
-            <element signature="e#9493#9494#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3228,16 +2909,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2427#2715#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#3276#5244#0" expanded="true" />
-            <element signature="e#5243#5244#0" expanded="true" />
-            <element signature="e#5287#5516#0" expanded="true" />
-            <element signature="e#5515#5516#0" expanded="true" />
-            <element signature="e#13309#13558#0" expanded="true" />
-            <element signature="e#13557#13558#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3245,11 +2917,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6612#6613#0" expanded="false" />
-            <element signature="e#6677#6678#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/Pos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTHeartBeatThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTRWThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/SearchBtActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/pos/Pos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTHeartBeatThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrinterLibs/src/com/lvrenyang/rwbt/BTRWThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/SearchBtActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3257,7 +3027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3265,29 +3034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/SearchBtActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6612#6613#0" expanded="false" />
-            <element signature="e#6677#6678#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3302,13 +3048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3316,9 +3055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3326,13 +3062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#3294#3295#0" expanded="false" />
-            <element signature="e#3314#3315#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3340,40 +3069,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7615894">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.73717946">
+          <caret line="117" column="45" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/qiniu/classes.jar!/com/qiniu/android/storage/FormUploader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33239436">
+          <caret line="106" column="95" selection-start-line="106" selection-start-column="89" selection-end-line="106" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/qiniu/classes.jar!/com/qiniu/android/storage/UploadManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4025974">
+          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Android/sdk/platforms/android-21/android.jar!/android/widget/SimpleAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.027659575">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/SearchBtActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="223" column="76" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.133333">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="79" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1546#1547#0" expanded="false" />
-            <element signature="e#1573#1574#0" expanded="false" />
-            <element signature="e#6864#6865#0" expanded="false" />
-            <element signature="e#6886#6887#0" expanded="false" />
-            <element signature="e#8993#8994#0" expanded="false" />
-            <element signature="e#9019#9020#0" expanded="false" />
-            <element signature="e#9055#9056#0" expanded="false" />
-            <element signature="e#9089#9090#0" expanded="false" />
-            <element signature="e#9122#9123#0" expanded="false" />
-            <element signature="e#9156#9157#0" expanded="false" />
-            <element signature="e#9408#9409#0" expanded="false" />
-            <element signature="e#9424#9425#0" expanded="false" />
-            <element signature="e#9477#9478#0" expanded="false" />
-            <element signature="e#9493#9494#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/MySpAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/BlankActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.856802">
+          <caret line="326" column="37" selection-start-line="326" selection-start-column="37" selection-end-line="326" selection-end-column="37" />
+          <folding>
+            <element signature="e#4036#4332#0" expanded="true" />
+            <element signature="e#4331#4332#0" expanded="true" />
+            <element signature="e#4461#4765#0" expanded="true" />
+            <element signature="e#4764#4765#0" expanded="true" />
+            <element signature="e#4891#5211#0" expanded="true" />
+            <element signature="e#5210#5211#0" expanded="true" />
+            <element signature="e#5282#5606#0" expanded="true" />
+            <element signature="e#5605#5606#0" expanded="true" />
+            <element signature="e#5674#5964#0" expanded="true" />
+            <element signature="e#5963#5964#0" expanded="true" />
+            <element signature="e#6012#6164#0" expanded="true" />
+            <element signature="e#6163#6164#0" expanded="true" />
+            <element signature="e#6335#8506#0" expanded="true" />
+            <element signature="e#8505#8506#0" expanded="true" />
+            <element signature="e#8950#11303#0" expanded="true" />
+            <element signature="e#9086#9111#0" expanded="true" />
+            <element signature="e#9789#9805#0" expanded="true" />
+            <element signature="e#11302#11303#0" expanded="true" />
+            <element signature="e#14942#14967#0" expanded="true" />
+            <element signature="e#17386#17838#0" expanded="true" />
+            <element signature="e#17837#17838#0" expanded="true" />
+            <element signature="e#18154#18170#0" expanded="true" />
+            <element signature="e#18726#19840#0" expanded="true" />
+            <element signature="e#19839#19840#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pozx/myapplication/UserDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.406181">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <element signature="e#2427#2715#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#3276#5244#0" expanded="true" />
-            <element signature="e#5243#5244#0" expanded="true" />
-            <element signature="e#5287#5516#0" expanded="true" />
-            <element signature="e#5515#5516#0" expanded="true" />
-            <element signature="e#13309#13558#0" expanded="true" />
-            <element signature="e#13557#13558#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.25612473">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
